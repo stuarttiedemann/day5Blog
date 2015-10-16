@@ -1,0 +1,94 @@
+body{
+	background-color: #cacaca;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+#blog-wrapper{
+	max-width: 90%;
+	margin:auto;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 6px;
+	border: solid 1px gray;
+}
+#header{
+	
+	overflow: hidden;
+	padding:1%;
+}
+#header .header-text{
+	font-size: 30px;
+	float: left;
+	margin: 0%;
+	padding: 0%;
+}
+#header .header-text h1{
+	margin:0;
+	padding: 0;
+}
+
+#header .search-bar{
+	float: right;
+}
+#header .search-bar input{
+	border-radius: 10px;
+	margin-top:20%;
+	/*width:23%;*/
+}
+#main-container{
+	width:73%;
+	float: left;
+}
+#right-rail{
+	width: 23%;
+	float: right;
+	padding:1%;
+}
+.blog-header-image img{
+	width: 100%;
+	padding: 1% 1% 0% 1%;
+	border-radius: 10px;
+}
+.blog-item-header{
+	border-bottom: solid 2px #cacaca;
+}
+.blog-item-header h3{
+	color: #0066ff;
+	font-size: 1.5em;
+}
+.blog-author{
+	padding-bottom:5px;
+
+}
+#blog-body-container{
+	padding:1%;
+}
+#right-rail .right-rail-item{
+	background-color: #cacaca;
+	border: 1px solid #eee;
+	color:#0066ff;
+	border-radius: 3px;
+	margin-bottom:3%;
+}
+#right-rail .right-rail-item p{
+	color:black;
+	margin-left: 3%;
+	border-bottom:1px solid gray;
+}
+#right-rail .right-rail-item ul li{
+	color:black;	
+}
+#right-rail .right-rail-item ul li span{
+	color:#0066ff;
+}
+footer{
+	text-align: center;
+}
+@media screen and (max-width: 900px){
+	#header .header-text h1{
+		font-size: 1.5em;
+		
+	}
+	#blog-wrapper{
+		min-width:100%;
+	}
+}
